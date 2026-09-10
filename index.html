@@ -50,6 +50,11 @@
         .btn-link { display: inline-block; background: #2a5298; color: white; padding: 5px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em; font-weight: bold; }
         .btn-link:hover { background: #1e3c72; }
 
+        .btn-check { display: inline-block; background: #2e7d32; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none; font-size: 1em; font-weight: bold; transition: background 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .btn-check:hover { background: #1b5e20; }
+        .btn-check.blue { background: #1565c0; }
+        .btn-check.blue:hover { background: #0d47a1; }
+
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
@@ -66,7 +71,7 @@
         <div class="tab-btn" onclick="switchTab(2)">Part 2. 언어적 특징</div>
         <div class="tab-btn" onclick="switchTab(3)">Part 3. 비언어적 특징</div>
         <div class="tab-btn" onclick="switchTab(4)">Part 4. 평가 및 적용</div>
-        <div class="tab-btn" onclick="switchTab(5)">Part 5. 추천 채널 및 도구</div>
+        <div class="tab-btn" onclick="switchTab(5)">Part 5. 내 에세이 확인 & 추천 자료</div>
     </div>
 
     <!-- Part 1 -->
@@ -81,7 +86,7 @@
         <div class="method-group">
             <div class="method-btn" onclick="toggleMethod(this)">1. 1학기 수행평가 연계형</div>
             <div class="method-content">
-                <div class="guideline-box">세부 가이드: 1학기 '자료 분석 에세이'나 '심화 탐구 에세이'에서 다루었던 주제를 영상 매체로 더 깊이 탐구하고 싶을 때 선택합니다.</div>
+                <div class="guideline-box">세부 가이드: 1학기 '자료 분석 에세이'나 '심화 탐구 에세이'에서 다루었던 주제를 영상 매체로 더 깊이 탐구하고 싶을 때 선택합니다. (제출한 내역은 Part 5에서 확인할 수 있습니다.)</div>
                 <span class="box-label first">영문 템플릿</span>
                 <div class="template-box">While researching <span class="highlight">[1학기 에세이 주제]</span> last semester, I wanted to explore it further. I chose this video because it focuses on <span class="highlight">[영상의 핵심 주제]</span>. Structurally, the video begins by introducing <span class="highlight">[서론 내용]</span>, moves on to discuss <span class="highlight">[본론 내용]</span>, and finally concludes with <span class="highlight">[결론 내용]</span>.</div>
                 <span class="box-label">템플릿 해석</span>
@@ -207,10 +212,19 @@
 
     <!-- Part 5 -->
     <div id="part5" class="tab-content">
-        <h2 class="part-title">Part 5. 추천 영상 채널 및 시청 분석 도구</h2>
+        <h2 class="part-title">Part 5. 내 에세이 확인 & 추천 자료</h2>
+
+        <div class="section-subtitle" style="margin-top: 0;">📌 1학기 에세이 제출 내역 확인</div>
+        <div class="info-box" style="background:#e8f5e9; border-left-color:#4caf50; color:#2e7d32; margin-bottom: 30px;">
+            '1학기 수행평가 연계형' 동기를 작성하려는 학생들은 아래 버튼을 눌러 자신이 1학기에 제출했던 에세이 내용을 먼저 확인해 보세요. 과거의 기록과 새로운 영상을 자연스럽게 연결할 수 있습니다.
+            <div style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="https://forms.gle/KzG7gTQfC7qNz1veA" target="_blank" class="btn-check">📝 자료 분석 에세이 내역 보기</a>
+                <a href="https://forms.gle/gFwFoGzgii7UHayg6" target="_blank" class="btn-check blue">🔍 심화 탐구 에세이 내역 보기</a>
+            </div>
+        </div>
         
         <div class="info-box" style="background:#f8f9fa; border-left-color:#34495e; color:#2c3e50;">
-            어떤 영상을 분석해야 할지 고민된다면 아래의 <b>장르별 유튜브 추천 채널</b>을 확인해 보세요. 또한, 영어 원문과 번역을 완벽하게 분석할 수 있도록 돕는 <b>학습용 앱/확장 프로그램</b> 활용법을 안내합니다.
+            어떤 영상을 분석해야 할지 고민된다면 아래의 <b>장르별 유튜브 추천 채널</b>을 확인해 보세요. 또한, 영어 원문과 번역을 완벽하게 분석할 수 있도록 돕는 <b>학습용 앱/확장 프로그램</b> 활용법을 함께 안내합니다.
         </div>
 
         <div class="section-subtitle">1. 시청 및 자막 분석 도구 활용 안내</div>
